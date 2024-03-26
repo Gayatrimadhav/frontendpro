@@ -28,7 +28,7 @@ const Navbar = () => {
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <Link className={`nav-link ${location.pathname==="/"? 'active':""}`} aria-current="page" to="/">Home</Link>
+          <Link className={`nav-link ${location.pathname==="/"? 'active':""}`} aria-current="page" to="/">Home1</Link>
         </li>
         <li className="nav-item">
           <Link className={`nav-link ${location.pathname==="/about"? 'active':""}`} to="/about">About</Link>
